@@ -1,15 +1,9 @@
-# NAT ONE Properties — Owner guide
+# NAT ONE Properties — Investment platform owner guide
 
-Owner dashboard: https://natoneproperties.vercel.app/?admin=1
-Owner email: info@natoneproperties.co.za
-The temporary password is provided privately and must not be committed to GitHub.
+Admin: https://natoneproperties.vercel.app/?admin=1
+Use your existing private owner credentials. Neon stores shared listings. All listings are sale/investment only.
 
-Live use requires DATABASE_URL to be configured in Vercel for the dedicated Neon database. The password is verified on the server. Never share it publicly.
-
-1. Open the owner dashboard and sign in.
-2. Select Add property. Choose for sale or rent; enter title, town, price, bedrooms, bathrooms, description and photo. Owner-added properties publish immediately. Photos are resized automatically.
-3. Edit updates the details. Approve publishes a pending submission; Reject/unpublish hides it. Delete removes it after confirmation.
-4. Check the public website from another device to confirm the listing is visible.
-5. Sign out on shared devices. The practice dashboard is local only and does not publish real properties. If live connection fails, no public submission is saved locally.
-
-Before launch: test cross-device persistence and all admin actions; rotate temporary password; add rate limiting and monitoring. The listed demo properties are fictional.
+1. Add property: select category (stand, plot, farm, development, investment), country, locality, currency, asking price, land size and description. Add a photo and tenure information if known. Owner entries publish directly; public submissions are pending.
+2. Edit or approve/reject submissions, and delete obsolete properties. Use only accurate information and authorized real photographs. Demo entries are fictional; add new real listings rather than editing demo records.
+3. Check the public site from another device. Price filtering compares only listings in the selected currency; no exchange-rate conversion is performed.
+4. Verify title, tenure, zoning, permissions and country-specific transaction requirements with qualified professionals. No returns guaranteed.
