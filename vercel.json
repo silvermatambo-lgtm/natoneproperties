@@ -17,5 +17,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/admin",
+      "destination": "/index.html?admin=1"
+    }
   ]
 }
